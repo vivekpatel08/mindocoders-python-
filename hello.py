@@ -439,3 +439,7 @@ bitwise
 # print("New list's length:",len(numbers))
 
 # print("\nNew list content :",numbers)
+list1=[]
+for i in range(50):
+    list1.append(i)
+print(list1)
