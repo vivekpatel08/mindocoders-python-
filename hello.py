@@ -439,13 +439,19 @@ bitwise
 # print("New list's length:",len(numbers))
 
 # print("\nNew list content :",numbers)
-list1=[]
-for i in range(50):
-    list1.append(i)
-print(list1)
+# list1=[]
+# for i in range(50):
+#     list1.append(i)
+# print(list1)
 
-list2=[]
-for i in range(50):
-    if i%2==0 :
-        list2.append(i)
-print(list2)
+# list2=[]
+# for i in range(50):
+#     if i%2==0 :
+#         list2.append(i)
+# print(list2)
+
+'''pratice question '''
+list = [1,2,3,4,5]
+print(len(list))
+list.remove(5)
+print(len(list))
