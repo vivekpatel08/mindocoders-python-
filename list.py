@@ -70,11 +70,24 @@
 # print(my_list)
 # my_list[0],my_list[4]=my_list[4],my_list[0]
 
-my_list= [10,2,8,3,5]
+
+'''bubble sorting'''
+my_list= [10,2,8,3,5,7,4,6,1,9]
 print(my_list)
+count = 0
 for index in range(len(my_list)-1):
-     for index in range(len(my_list)-1):
+     for index in range(len(my_list)-1-index):
+       count += 1
        if (my_list[index] > my_list[index + 1]):
            my_list[index], my_list[index+1]=my_list[index+1], my_list[index]
 
 print(my_list)
+print("my program is run for:",count,"times")
+
+
+'''
+4 = 5th element sorted
+3 = 4th element sorted
+2 = 3rd element sorted
+1 = 2nd element sorted
+'''
