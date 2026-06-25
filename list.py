@@ -57,11 +57,24 @@
 # print("sum:",sum)
 
 '''swap two number'''
-a = 20
-b = 10
-print("a:",a)
-print("b:",b)
-#
-a,b=b,a
-print("a:",a)
-print("b:",b)
+# a = 20
+# b = 10
+# print("a:",a)
+# print("b:",b)
+# #
+# a,b=b,a
+# print("a:",a)
+# print("b:",b)
+
+# my_list=[10,2,8,3,5]
+# print(my_list)
+# my_list[0],my_list[4]=my_list[4],my_list[0]
+
+my_list= [10,2,8,3,5]
+print(my_list)
+for index in range(len(my_list)-1):
+     for index in range(len(my_list)-1):
+       if (my_list[index] > my_list[index + 1]):
+           my_list[index], my_list[index+1]=my_list[index+1], my_list[index]
+
+print(my_list)
