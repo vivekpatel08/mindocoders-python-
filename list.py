@@ -72,17 +72,17 @@
 
 
 '''bubble sorting'''
-my_list= [10,2,8,3,5,7,4,6,1,9]
-print(my_list)
-count = 0
-for index in range(len(my_list)-1):
-     for index in range(len(my_list)-1-index):
-       count += 1
-       if (my_list[index] > my_list[index + 1]):
-           my_list[index], my_list[index+1]=my_list[index+1], my_list[index]
+# my_list= [10,2,8,3,5,7,4,6,1,9]
+# print(my_list)
+# count = 0
+# for index in range(len(my_list)-1):
+#      for index in range(len(my_list)-1-index):
+#        count += 1
+#        if (my_list[index] > my_list[index + 1]):
+#            my_list[index], my_list[index+1]=my_list[index+1], my_list[index]
 
-print(my_list)
-print("my program is run for:",count,"times")
+# print(my_list)
+# print("my program is run for:",count,"times")
 
 
 '''
@@ -91,3 +91,16 @@ print("my program is run for:",count,"times")
 2 = 3rd element sorted
 1 = 2nd element sorted
 '''
+
+my_list= [10,2,8,3,5,7,4,6,1,9]
+swapped =  True
+count = 0 
+while swapped :
+    swapped = False 
+    for i in range (len(my_list)-1):
+        count += 1
+        if my_list[i] > my_list[i + 1]:
+            swapped = True 
+            my_list[i],my_list[i + 1 ]=my_list[i + 1 ],my_list[i]
+print(my_list)
+print("loops are running  for:",count,"times")
