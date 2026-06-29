@@ -136,7 +136,23 @@ index = len(lst)-(index +1)
 
 '''module 3
 '''
-lst =["A","F","a","b"]
-lst.sort()
+# lst =["A","F","a","b"]
+# lst.sort()
+# print(lst)
+# print("a"<"A")
+
+# a= 3
+# b =1 
+# c = 2
+# lst = [a,c,b]
+# lst.sort()
+# print(lst)
+
+#reverse list
+a = "A"
+b = "B"
+c = "c"
+d = " "
+lst = [a,b,c,d]
+lst.reverse()
 print(lst)
-print("a"<"A")
