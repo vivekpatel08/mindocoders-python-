@@ -157,7 +157,20 @@ index = len(lst)-(index +1)
 # lst.reverse()
 # print(lst)
 
-list_1=[1]
-list_2=[list_1]
-list_1[0] = 2
-print(list_2)
+
+# list_1=[1]
+# list_2=[list_1]
+# list_1[0] = 2
+# print(list_2)
+
+# list_1=[1,2,3]
+# list_2=list_1.copy()
+# list_1[0] = 2
+# print(list_2)
+
+# list_1=[1,2,3]
+# list_2 =list_1[0:2]
+# list_1[0]=2
+# print("list_2",list_2)
+# print("list_1",list_1)
+
