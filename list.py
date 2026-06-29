@@ -149,10 +149,15 @@ index = len(lst)-(index +1)
 # print(lst)
 
 #reverse list
-a = "A"
-b = "B"
-c = "c"
-d = " "
-lst = [a,b,c,d]
-lst.reverse()
-print(lst)
+# a = "A"
+# b = "B"
+# c = "c"
+# d = " "
+# lst = [a,b,c,d]
+# lst.reverse()
+# print(lst)
+
+list_1=[1]
+list_2=[list_1]
+list_1[0] = 2
+print(list_2)
