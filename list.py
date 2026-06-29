@@ -174,3 +174,19 @@ index = len(lst)-(index +1)
 # print("list_2",list_2)
 # print("list_1",list_1)
 
+# my_list = [10,8,6,4,2]
+# new_list = my_list[1:3]
+# print(new_list)
+
+# new_list = my_list[1:-1]
+# print(new_list)
+
+# new_list = my_list[-1:1]
+# new_list = my_list[::-1]
+
+# print(new_list)
+
+# #to print the ascii value 
+# print(ord("a"))
+# print(ord("B"))
+
