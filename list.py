@@ -72,7 +72,8 @@
 
 
 '''bubble sorting'''
-# my_list= [10,2,8,3,5,7,4,6,1,9]
+# my_list= [1,2,3,4]
+# swapped = 0 
 # print(my_list)
 # count = 0
 # for index in range(len(my_list)-1):
@@ -80,6 +81,9 @@
 #        count += 1
 #        if (my_list[index] > my_list[index + 1]):
 #            my_list[index], my_list[index+1]=my_list[index+1], my_list[index]
+#            swapped = 1
+#      if swapped == 0:
+#          break
 
 # print(my_list)
 # print("my program is run for:",count,"times")
@@ -92,15 +96,47 @@
 1 = 2nd element sorted
 '''
 
-my_list= [10,2,8,3,5,7,4,6,1,9]
-swapped =  True
-count = 0 
-while swapped :
-    swapped = False 
-    for i in range (len(my_list)-1):
-        count += 1
-        if my_list[i] > my_list[i + 1]:
-            swapped = True 
-            my_list[i],my_list[i + 1 ]=my_list[i + 1 ],my_list[i]
-print(my_list)
-print("loops are running  for:",count,"times")
+# my_list= [1,2,3,4,5]
+# swapped =  True
+# count = 0 
+# while swapped :
+#     swapped = False 
+#     for i in range (len(my_list)-1):
+#         count += 1
+#         if my_list[i] > my_list[i + 1]:
+#             swapped = True 
+#             my_list[i],my_list[i + 1 ]=my_list[i + 1 ],my_list[i]
+# print(my_list)
+# print("loops are running  for:",count,"times")
+
+'''function sorting'''
+
+# my_list= [1,9,3,2,5]
+# my_list.sort()
+# print(my_list)
+
+'''
+[a,b,c,d,e]
+0 = -1
+1= -2
+0 = -1 = (-1 *(index + 1))
+index = (-1 *(index +1))
+index = len(lst)-(index +1)
+ 
+ '''
+
+# lst= [1,9,3,2,5]
+# #print(my_list[::-1])
+# for index in range(len(lst)//2):
+#     #print(len[index])
+#     #lst[index],lst[(-1 *(index + 1))]=lst[(-1 *(index + 1))],lst[index]
+#     lst[index],lst
+# print(lst) 
+
+
+'''module 3
+'''
+lst =["A","F","a","b"]
+lst.sort()
+print(lst)
+print("a"<"A")
