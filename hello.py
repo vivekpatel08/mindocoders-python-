@@ -91,6 +91,16 @@ bitwise
 # print(a)
 # a ^= 3
 # print(a)
+
+monthly_salary=float(input("Monthly salary (Rs.):"))
+annual_salary=monthly_salary * 12
+daily_salary=monthly_salary /30
+tax = annual_salary * 0.10
+print(f"Annual: Rs.{annual_salary:,.0f}")
+print(f"daily: Rs.{ daily_salary:,.2f}")
+print(f"Tax: Rs.{tax:,.2f}")
+print(f"Net: Rs.{annual_salary - tax:,.0f}")
+
  
 
 #camparison operator
@@ -451,7 +461,7 @@ bitwise
 # print(list2)
 
 '''pratice question '''
-list = [1,2,3,4,5]
-print(len(list))
-list.remove(5)
-print(len(list))
+# list = [1,2,3,4,5]
+# print(len(list))
+# list.remove(5)
+# print(len(list))

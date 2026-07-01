@@ -189,10 +189,10 @@ index = len(lst)-(index +1)
 # #to print the ascii value 
 # print(ord("a"))
 # print(ord("B"))
-
-lst=[1,2,3,4,5]
+'''found the value at index'''
+# lst=[1,2,3,4,5]
  
-for index in range(len(lst)):
-    if lst[index] == 5:
-        print("found at index",index)
-        break
+# for index in range(len(lst)):
+#     if lst[index] == 5:
+#         print("found at index",index)
+#         break
