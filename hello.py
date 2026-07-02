@@ -92,18 +92,18 @@ bitwise
 # a ^= 3
 # print(a)
 
-monthly_salary=float(input("Monthly salary (Rs.):"))
-annual_salary=monthly_salary * 12
-daily_salary=monthly_salary /30
-tax = annual_salary * 0.10
-print(f"Annual: Rs.{annual_salary:,.0f}")
-print(f"daily: Rs.{ daily_salary:,.2f}")
-print(f"Tax: Rs.{tax:,.2f}")
-print(f"Net: Rs.{annual_salary - tax:,.0f}")
+# monthly_salary=float(input("Monthly salary (Rs.):"))
+# annual_salary=monthly_salary * 12
+# daily_salary=monthly_salary /30
+# tax = annual_salary * 0.10
+# print(f"Annual: Rs.{annual_salary:,.0f}")
+# print(f"daily: Rs.{ daily_salary:,.2f}")
+# print(f"Tax: Rs.{tax:,.2f}")
+# print(f"Net: Rs.{annual_salary - tax:,.0f}")
 
  
 
-#camparison operator
+'''camparison operator'''
 # a = 10
 # b = 20
 # print("a == b:",a == b)
@@ -125,7 +125,7 @@ print(f"Net: Rs.{annual_salary - tax:,.0f}")
 # print(x < 5 or x < 10)
 # print(not(x < 5 and x < 10))
 
-#identity operator
+'''identity operator'''
 
 # y = 3 
 # print(x is y)
@@ -157,7 +157,7 @@ print(f"Net: Rs.{annual_salary - tax:,.0f}")
 # print(Z is X)
 # print(Z is not X)
 
-#membership operator
+'''membership operator'''
 
 # X = ["maruti","BMW"]
 # Y =  ["maruti","BMW"]

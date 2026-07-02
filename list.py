@@ -186,9 +186,22 @@ index = len(lst)-(index +1)
 
 # print(new_list)
 
-# #to print the ascii value 
+'''to print the ascii value '''
 # print(ord("a"))
 # print(ord("B"))
+
+#difference  
+ch1 = 'A'
+ch2 = 'a'
+
+ascii1 = ord(ch1)
+ascii2 = ord(ch2)
+
+print(f"ASCII1 value of'{ch1} ' is: {ascii1}")
+print(f"ASCII2 value of'{ch1} ' is: {ascii2}")
+print(f"Difference: {ascii2 -ascii1}")
+
+
 '''found the value at index'''
 # lst=[1,2,3,4,5]
  
