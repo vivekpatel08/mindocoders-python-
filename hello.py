@@ -240,8 +240,12 @@ bitwise
 # print(("|" + " "*10 +"|\n")*5,end="")
 # print("+" + "-"*10 + "+")
 
+# print('123',end=" ")
+# print('345',end=" ")
+# print("890")
+
 '''important string'''
-# city = 'Bhopal'#string indexing 
+city = 'Bhopal'#string indexing 
 # print(city[0]) 
 # print(city[1]) 
 # print(city[2]) 
@@ -255,7 +259,13 @@ bitwise
 # print(city[-2])
 # print(city[-1])  
 # print(city[-1] + city[-4])
+print(city[0:5])
+print(city[6:])
+print(city[:5])
+print(city[::2])
+print(city[::-1])
 
+ 
 # print(2 == 2)
 # print(2 == 2.0)
 
@@ -272,7 +282,7 @@ bitwise
 # print("maja aa gya hoye!!!")
 # number1= int(input("enter the first value:"))
 # number2= int(input("enter the second value:"))
-# if number1 >number2:larger_number
+# if number1 > number2:larger_number
 
 # else:larger_number
 
