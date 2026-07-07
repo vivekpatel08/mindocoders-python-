@@ -15,3 +15,7 @@
 # print(beatles)
 
 
+#Questions
+
+name,marks,rank = "vivek patel",32,4
+print(f'NANME:{name:<15}\n|MARKS:{marks:<15}\n|Rank:{rank}\n')

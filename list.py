@@ -1,3 +1,53 @@
+#replace 
+# text = ' Hello pyrhon World '
+# print(text.replace('python','AI'))
+
+#split and join
+# csv = 'Rahul,22,Bhopal,Engineer'
+# parts= csv.split(',')
+# print("parts:",parts)
+# print(parts[0])
+# rejoined = '|'.join(parts)
+# print("rejoined",rejoined)
+
+
+'''str = 'vivek'
+rejoined = 'patel'.join(str)
+print('rejoined:',rejoined)
+'''
+
+# #check content
+# print("hello123".isalnum())
+# print("1234".isdigit())
+# print("python".isalpha())
+# print(" ".isspace())
+
+# email = "vivekpatel@gmail.com"
+# print(email.startswith('viv'))
+# print(email.endswith('.com'))
+
+
+'''formated string'''
+
+#Basic
+#name,marks,rank = 'Anita',92.98,3
+# print(f'Marks:{marks:.2f}')
+# print(f'Marks:{marks:.0f}')
+# print(f'Count:{100000:.2f}')
+
+ 
+#pedding and alignment
+# print(f'{name:<15}|{marks:>8.2f}|Rank:{rank}')
+
+# name = "vivek patel"
+# print(f'{name:<15}|{marks:>8.2f}|Rank:{rank}')
+'''expression'''
+# price ,gst = 500,0.18
+# print(f"Price:Rs.{price} | GST:Rs.{price*gst:.3f} | Total:Rs.{price*(1+gst):.2f}")
+# Name,Salary,Bounce = "vivek patel"
+# print(f'{Name:<15}')
+
+
 # list1 =[5,4,3,2,1]
 # print(list1)
 # print(f'lrngth of list1 is :{len(list1)}')
@@ -201,9 +251,21 @@ index = len(lst)-(index +1)
 # print(f"ASCII2 value of'{ch1} ' is: {ascii2}")
 # print(f"Difference: {ascii2 -ascii1}")
 
-ch = '9'
-digit_value = ord(ch) - ord('0')
-print(digit_value)
+'''Difference between two ascii values'''
+# ch = '9'
+# digit_value = ord(ch) - ord('0')
+# print(digit_value)
+# print(ord('Z'))
+
+'''Addition of ASCII Value'''
+# str = "VIVEK"
+# ascii_sum = sum(ord(ch) for ch in str)
+# average = ascii_sum /len(str)
+# print("strings:",str)
+# print("Sum of ASCII value:",ascii_sum)
+# print("Average:",average)
+
+
 
 
 '''found the value at index'''

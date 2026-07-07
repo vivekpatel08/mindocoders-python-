@@ -182,6 +182,16 @@ bitwise
 # print( x >> 2)
 # print( y >> 2)
 
+'''if else'''
+#user input  two numbers
+num1 = int(input("Enter the first numbers:"))
+num2 = int(input("Enter the second numbers:"))
+#check which number is greater
+if num1 > num2:
+    print("larger number:",num1)
+else:
+    print("larger number:",num2)
+
 
 '''python user input '''
 # name = input("please enter  your name:")
@@ -259,12 +269,22 @@ city = 'Bhopal'#string indexing
 # print(city[-2])
 # print(city[-1])  
 # print(city[-1] + city[-4])
-print(city[0:5])
-print(city[6:])
-print(city[:5])
-print(city[::2])
-print(city[::-1])
+# print(city[0:5])
+# print(city[6:])
+# print(city[:5])
+# print(city[::2])
+# print(city[::-1])
 
+
+# text = 'hello python World!'
+# print(text.upper())
+# print(text.lower())
+# print(text.title())
+# print(text.capitalize())
+
+# print(text.strip())
+
+# print('python' in text)
  
 # print(2 == 2)
 # print(2 == 2.0)
@@ -475,3 +495,4 @@ print(city[::-1])
 # print(len(list))
 # list.remove(5)
 # print(len(list))
+
