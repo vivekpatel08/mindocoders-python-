@@ -184,13 +184,17 @@ bitwise
 
 '''if else'''
 #user input  two numbers
-num1 = int(input("Enter the first numbers:"))
-num2 = int(input("Enter the second numbers:"))
+# num1 = int(input("Enter the first numbers:"))
+# num2 = int(input("Enter the second numbers:"))
 #check which number is greater
-if num1 > num2:
-    print("larger number:",num1)
-else:
-    print("larger number:",num2)
+# if num1 > num2:
+#     print("larger number:",num1)
+# else:
+#     print("larger number:",num2)
+
+# counter = 0
+# for counter in range(100):
+#   print(counter)
 
 
 '''python user input '''
@@ -327,14 +331,14 @@ city = 'Bhopal'#string indexing
 # while True:     //infinte loop
 #     print("I am stuck in loop")
 
-# largest_number=-999999
-# number=int(input("enter a number or type -1 to stop:"))
+# largest_number = -999999
+# number = int(input("Enter a number or type -1 to stop:"))
 
-# while number!=-1:
-#     if number >largest_number:
-#         largest_number=number
-#     number=int(input("enter a number or type -1 to stop:"))
-# print("the largest_number is:",largest_number)
+# while number != -1:
+#     if number > largest_number:
+#         largest_number = number
+#     number = int(input("Enter a number or type -1 to stop:"))
+# print("The largest_number is:",largest_number)
 
 '''pratice question baki hai abhi'''
 # print("Yes-Spathiphyllum is the best plant ever")
@@ -395,6 +399,21 @@ city = 'Bhopal'#string indexing
 # for counter in range(2,8):
 #     print("Counter:",counter)
 
+# counter = 0
+# while counter < 100:
+#     print(counter)
+#     counter += 1
+
+'''
+counter 0 1 2 ... 99
+output 0 1 2 ...99
+'''
+
+# exit = 1
+# while exit !=0:
+#     exit = int(input("Enter numbers:"))
+#     print(exit)
+
 '''break'''
 # print("the break instruction:")
 # for counter in range(1,6):
@@ -411,19 +430,51 @@ city = 'Bhopal'#string indexing
 #     print("inside the loop.",counter)
 # print("outside the loop.")
 
-# largest_number=-999999
-# counter=0
+'''break and continue'''
+# power = 1 
+# for expo in range(16):
+#     print("2 to the power of",expo,"is",power)
+#     power *= 2
+#     if expo == 7:
+#         break
+
+# power = 1 
+# for expo in range(16):
+#     if expo == 7:
+#         continue
+#     print("2 to the power of",expo,"is",power)
+#     power *= 2
+
+# print("The break instruction:")
+# for counter in range (1,6):
+#     if counter == 3:
+#         break
+#     print("Inside the loop.",counter)
+# print("outside the loop.")
+
+# print("The continue instruction:")
+# for counter in range (1,6):
+#     if counter == 3:
+#         continue
+#     print("Inside the loop.",counter)
+# print("outside the loop.")
+
+ 
+
+largest_number=-999999
+counter = 0
+
 # while True:
-#   number=int(input("enter a number or type -1 to stop:"))
-#   if number == -1: 
-#    break
-#    counter += 1
-#   if number > largest_number :
-#     largest_number=number
-# if counter != 0:
-#     print("the largest_number is:",largest_number)
-# else:
-#   print("invalid number!!")
+#   Number=int(input("Enter a number or type -1 to stop:"))
+#   if Number == -1:
+#     break
+#   counter += 1
+#   if Number > largest_number :
+#        largest_number = Number
+#   if counter != 0:
+#     print("The largest_number is:",largest_number)
+#   else:
+#     print("invalid number!!")
 
 # largest_number=-999999
 # counter=0 
@@ -455,10 +506,18 @@ city = 'Bhopal'#string indexing
 # else:
 #     print("else:",counter)
 
+# for counter in  range (10):
+#     print("The value of counter is currently:",counter)
 
+# for counter in  range (2,9,3):
+#     print("The value of counter is currently:",counter)
 
-
-
+# power = 1
+# for expo in range(16):
+#     print("2 to  the power of ",expo,"is",power)
+#     power *=2
+ 
+ 
 
 
 

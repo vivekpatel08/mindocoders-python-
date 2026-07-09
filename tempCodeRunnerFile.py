@@ -1,1 +1,1 @@
-print(ord('Z'))
+num.replace()
