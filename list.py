@@ -275,3 +275,18 @@ index = len(lst)-(index +1)
 #     if lst[index] == 5:
 #         print("found at index",index)
 #         break
+#traversing of the list
+#list = [1,2,3,4,5,6,11,34,98]
+# for i in list:
+#     print(i)
+# for index in range(len(list)):
+#     print(list[index])
+
+# index=0
+# while index < len(list):
+#     print(list[index])
+#     index +=1
+list=[]
+for iterator in range(1,11):
+    list.append(iterator)
+print(list)
