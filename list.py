@@ -286,7 +286,20 @@ index = len(lst)-(index +1)
 # while index < len(list):
 #     print(list[index])
 #     index +=1
-list=[]
-for iterator in range(1,11):
-    list.append(iterator)
+# list=[]
+# for iterator in range(1,11):
+#     list.append(iterator)
+# print(list)
+# while<10:
+
+list=[8,9,5,3,10]
+# list.sort()
+# list=sorted(list)
+# print(list)
+list.reverse()
 print(list)
+
+lst =["D","F","A","R"]
+lst.sort()
+
+print(lst)
