@@ -292,14 +292,46 @@ index = len(lst)-(index +1)
 # print(list)
 # while<10:
 
-list=[8,9,5,3,10]
+# list=[8,9,5,3,10]
 # list.sort()
 # list=sorted(list)
 # print(list)
-list.reverse()
-print(list)
+# list.reverse()
+# print(list)
 
-lst =["D","F","A","R"]
-lst.sort()
+# lst =["D","F","A","R"]
+# lst.sort()
 
-print(lst)
+# print(lst)
+# a='A'
+# b = "B"
+# c="C"
+# d=" "
+# list.sort()
+# print(a,b,c,d)
+# list.reverse()
+# print(a,b,c,d)
+
+# lst_1 = [1]
+# lst_2 = lst_1[:]
+# lst_1[0] = 2
+# print(lst_2)
+
+#lst slicing
+# my_lst =[10,8,4,67]
+# del my_lst[-1:1]
+# new_lst=my_lst[-1:1]
+# print(my_lst)
+
+# my_lst =[17,3,11,5,1,9,7,15,13]  //find: 5 
+# for index in range(len(my_lst)):
+#     my_lst[index] 
+
+
+
+
+'''list comparehension'''
+row =[]
+for i  in range(8):
+    row.append("WHITE PAWN")
+print(row)
