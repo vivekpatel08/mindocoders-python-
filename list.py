@@ -330,8 +330,18 @@ index = len(lst)-(index +1)
 
 
 
-'''list comparehension'''
-row =[]
-for i  in range(8):
-    row.append("WHITE PAWN")
-print(row)
+'''list comprehension'''
+# row =[]
+# for i  in range(8):
+#     row.append("WHITE_PAWN")
+# print(row)
+
+# row =["VIVEK-PATEL" for i in range(8)]
+# print(row)
+# square = [x ** 2 for x in range(10)]
+# print(square)
+
+# twoes = [2 ** i for i in range(8)]
+# print(twoes)
+
+print("check branch changhes!")
