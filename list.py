@@ -344,4 +344,21 @@ index = len(lst)-(index +1)
 # twoes = [2 ** i for i in range(8)]
 # print(twoes)
 
-print("check branch changhes!")
+# print("check branch changhes!")
+'''cheesboard'''
+
+board = []
+for i in range(8):
+    row = ["EMPTY" for i in range(8)]
+    board.append(row)
+
+print(board)
+
+board[0][0] = "ROOK"
+board[0][7] = "ROOK"
+board[7][0] = "ROOK"
+board[7][7] = "ROOK"
+
+for index in range(len(board)):
+    print(board[index])
+
