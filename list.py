@@ -347,18 +347,54 @@ index = len(lst)-(index +1)
 # print("check branch changhes!")
 '''cheesboard'''
 
-board = []
-for i in range(8):
-    row = ["EMPTY" for i in range(8)]
-    board.append(row)
+# board = []
+# for i in range(8):
+#     row = ["EMPTY" for i in range(8)]
+#     board.append(row)
 
-print(board)
+# print(board)
 
-board[0][0] = "ROOK"
-board[0][7] = "ROOK"
-board[7][0] = "ROOK"
-board[7][7] = "ROOK"
+# board[0][0] = "ROOK"
+# board[0][7] = "ROOK"
+# board[7][0] = "ROOK"
+# board[7][7] = "ROOK"
 
-for index in range(len(board)):
-    print(board[index])
+# board[0][1] = "KNIGHT"
+# board[0][6] = "KNIGHT"
+# board[7][1] = "KNIGHT"
+# board[7][6] = "KNIGHT"
 
+# board[0][2] = "CAMEL"
+# board[0][5] = "CAMEL"
+# board[7][2] = "CAMEL"
+# board[7][5] = "CAMEL"
+
+# board[0][3] = "KING"
+# board[7][4] = "KING"
+
+
+
+
+
+# for index in range(len(board)):
+#     print(board[index])
+
+'''MULTI-DIMENSIONAL ARRAY'''
+temps = [[0.0 for h in range(24)] for d in range(31)]
+# print(temps)
+# temps [0][11] = 23.0
+
+random=[35,23,26,38,12,35,23,26,38,12,35,23,26,38,12,35,23,26,38,12,35,23,26,38,12,35,23,26,38,12,10]
+print(len(random))
+
+for index in range(len(temps)):
+    temps[index][11] = random[index]
+
+for index in range(len(temps)):
+    print(temps[index])
+
+sum = 0
+for index in range(len(temps)):
+    sum += temps[index][11]
+
+print(sum/31)
